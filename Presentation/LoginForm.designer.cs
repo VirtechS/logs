@@ -77,7 +77,7 @@
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2,
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(780, 330);
+            this.shapeContainer1.Size = new System.Drawing.Size(785, 330);
             this.shapeContainer1.TabIndex = 1;
             this.shapeContainer1.TabStop = false;
             // 
@@ -167,6 +167,7 @@
             this.linkpass.TabIndex = 0;
             this.linkpass.TabStop = true;
             this.linkpass.Text = "Забыли пароль ?";
+            this.linkpass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkpass_LinkClicked);
             // 
             // btnexit
             // 
@@ -206,7 +207,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
-            this.ClientSize = new System.Drawing.Size(780, 330);
+            this.ClientSize = new System.Drawing.Size(785, 330);
             this.Controls.Add(this.lblErrorMessagge);
             this.Controls.Add(this.btnroll);
             this.Controls.Add(this.btnexit);

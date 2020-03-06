@@ -125,5 +125,11 @@ namespace Presentation
             //txtuser.Focus();
 
         }
+
+        private void linkpass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var recoverPassword = new FormRecoveryPassword();
+            recoverPassword.ShowDialog();
+        }
     }
 }
