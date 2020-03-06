@@ -35,6 +35,10 @@ namespace Presentation
         private void MainMenu_Load(object sender, EventArgs e)
         {
             LoadUserData();
+            if (UserLoginCache.Position == Positions.Client)
+            {
+                gunaAdvenceButton13.Enabled = false;
+            }
         }
     }
 }

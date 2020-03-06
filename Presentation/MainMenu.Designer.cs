@@ -37,6 +37,9 @@
             this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.lblEmail = new Guna.UI.WinForms.GunaLabel();
+            this.lblName = new Guna.UI.WinForms.GunaLabel();
+            this.lblPhone = new Guna.UI.WinForms.GunaLabel();
             this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
@@ -56,9 +59,6 @@
             this.gunaAdvenceButton10 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblPhone = new Guna.UI.WinForms.GunaLabel();
-            this.lblName = new Guna.UI.WinForms.GunaLabel();
-            this.lblEmail = new Guna.UI.WinForms.GunaLabel();
             this.gunaShadowPanel1.SuspendLayout();
             this.gunaGradient2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
@@ -247,6 +247,36 @@
             this.gunaGradient2Panel3.Radius = 8;
             this.gunaGradient2Panel3.Size = new System.Drawing.Size(179, 61);
             this.gunaGradient2Panel3.TabIndex = 32;
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblEmail.Location = new System.Drawing.Point(59, 37);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(36, 15);
+            this.lblEmail.TabIndex = 11;
+            this.lblEmail.Text = "Email";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblName.Location = new System.Drawing.Point(59, 21);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(39, 15);
+            this.lblName.TabIndex = 10;
+            this.lblName.Text = "Name";
+            // 
+            // lblPhone
+            // 
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblPhone.Location = new System.Drawing.Point(59, 6);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(41, 15);
+            this.lblPhone.TabIndex = 9;
+            this.lblPhone.Text = "Phone";
             // 
             // gunaCirclePictureBox1
             // 
@@ -620,36 +650,6 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(751, 389);
             this.flowLayoutPanel2.TabIndex = 39;
-            // 
-            // lblPhone
-            // 
-            this.lblPhone.AutoSize = true;
-            this.lblPhone.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblPhone.Location = new System.Drawing.Point(59, 6);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(41, 15);
-            this.lblPhone.TabIndex = 9;
-            this.lblPhone.Text = "Phone";
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblName.Location = new System.Drawing.Point(59, 21);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(39, 15);
-            this.lblName.TabIndex = 10;
-            this.lblName.Text = "Name";
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblEmail.Location = new System.Drawing.Point(59, 37);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(36, 15);
-            this.lblEmail.TabIndex = 11;
-            this.lblEmail.Text = "Email";
             // 
             // MainMenu
             // 

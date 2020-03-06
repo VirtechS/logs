@@ -14,5 +14,6 @@ namespace Common.Cache
         public static string Email { get; set; }
         public static string address { get; set; }
         public static string phone { get; set; }
+        public static string Position { get; set; }
     }
 }

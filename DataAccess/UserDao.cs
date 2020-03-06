@@ -32,12 +32,23 @@ namespace DataAccess
                             UserLoginCache.LastName = reader.GetString(8);
                             UserLoginCache.phone = reader.GetString(6);
                             UserLoginCache.Email = reader.GetString(3);
+                            UserLoginCache.Position = reader.GetString(9);
                         }
                         return true;
                     }
                     else
                         return false;
                 }
+            }
+        }
+        public void AnyMethod() {
+            if (UserLoginCache.Position == Positions.Administrator)
+            {
+
+            }
+            if (UserLoginCache.Position == Positions.Client)
+            {
+
             }
         }
     }

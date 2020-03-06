@@ -26,5 +26,16 @@ namespace Domain
             }
             return true;
         }
+        public void AnyMethod()
+        {
+            if (UserLoginCache.Position == Positions.Administrator)
+            {
+
+            }
+            if (UserLoginCache.Position == Positions.Client)
+            {
+
+            }
+        }
     }
 }
