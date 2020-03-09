@@ -92,11 +92,12 @@ namespace Presentation
                     var validLogin = user.LoginUser(txtuser.Text,txtpass.Text);
                     if (validLogin == true)
                     {
+                        this.Hide();
+                        FormWelcome welcome = new FormWelcome();
+                        welcome.ShowDialog();
                         MainMenu mainMenu = new MainMenu();
-                        MessageBox.Show("Здравствуйте " + UserLoginCache.FirstName + "," + UserLoginCache.LastName);
                         mainMenu.Show();
                         mainMenu.FormClosed += Logout;
-                        this.Hide();
                     }
                     else
                     {

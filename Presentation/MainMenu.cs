@@ -17,18 +17,11 @@ namespace Presentation
         {
             InitializeComponent();
         }
-
-        private void gunaAdvenceButton5_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Вы уверены, что выйдете из системы?", "Предупреждение",
-           MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
-                this.Close();
-        }
         private void LoadUserData()
         {
             lblName.Text = UserLoginCache.FirstName + "," + UserLoginCache.LastName;
-            lblPhone.Text = UserLoginCache.phone;
-            lblEmail.Text = UserLoginCache.Email;
+            //lblPhone.Text = UserLoginCache.phone;
+            //lblEmail.Text = UserLoginCache.Email;
 
         }
 
@@ -41,8 +34,15 @@ namespace Presentation
         {
             if (UserLoginCache.Position == Positions.Client)
             {
-                gunaAdvenceButton13.Enabled = false;
+                gunaGradientTileButton1.Enabled = false;
             }
+        }
+
+        private void gunaGradientTileButton5_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Вы уверены, что выйдете из системы?", "Предупреждение",
+           MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
         }
     }
 }

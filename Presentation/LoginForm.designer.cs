@@ -50,7 +50,7 @@
             // 
             // Panel1
             // 
-            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(21)))), ((int)(((byte)(41)))));
+            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(130)))), ((int)(((byte)(68)))));
             this.Panel1.Controls.Add(this.pictureBox3);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel1.Location = new System.Drawing.Point(0, 0);
@@ -62,9 +62,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(59, 100);
+            this.pictureBox3.Location = new System.Drawing.Point(40, 73);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(123, 129);
+            this.pictureBox3.Size = new System.Drawing.Size(168, 173);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -113,7 +113,7 @@
             // 
             // txtuser
             // 
-            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
+            this.txtuser.BackColor = System.Drawing.Color.White;
             this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtuser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtuser.ForeColor = System.Drawing.Color.DimGray;
@@ -127,7 +127,7 @@
             // 
             // txtpass
             // 
-            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
+            this.txtpass.BackColor = System.Drawing.Color.White;
             this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtpass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtpass.ForeColor = System.Drawing.Color.DimGray;
@@ -141,12 +141,13 @@
             // 
             // btnlogin
             // 
-            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(130)))), ((int)(((byte)(68)))));
             this.btnlogin.FlatAppearance.BorderSize = 0;
             this.btnlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlogin.ForeColor = System.Drawing.Color.LightGray;
+            this.btnlogin.Font = new System.Drawing.Font("Gilroy Light", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnlogin.ForeColor = System.Drawing.Color.White;
             this.btnlogin.Location = new System.Drawing.Point(275, 233);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(477, 40);
@@ -159,11 +160,11 @@
             // 
             this.linkpass.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.linkpass.AutoSize = true;
-            this.linkpass.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkpass.Font = new System.Drawing.Font("Gilroy ExtraBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkpass.LinkColor = System.Drawing.Color.DimGray;
             this.linkpass.Location = new System.Drawing.Point(456, 290);
             this.linkpass.Name = "linkpass";
-            this.linkpass.Size = new System.Drawing.Size(122, 17);
+            this.linkpass.Size = new System.Drawing.Size(114, 16);
             this.linkpass.TabIndex = 0;
             this.linkpass.TabStop = true;
             this.linkpass.Text = "Забыли пароль ?";
@@ -172,9 +173,10 @@
             // btnexit
             // 
             this.btnexit.Image = ((System.Drawing.Image)(resources.GetObject("btnexit.Image")));
-            this.btnexit.Location = new System.Drawing.Point(762, 3);
+            this.btnexit.Location = new System.Drawing.Point(745, 3);
             this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(15, 15);
+            this.btnexit.Size = new System.Drawing.Size(37, 33);
+            this.btnexit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnexit.TabIndex = 9;
             this.btnexit.TabStop = false;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
@@ -182,9 +184,10 @@
             // btnroll
             // 
             this.btnroll.Image = ((System.Drawing.Image)(resources.GetObject("btnroll.Image")));
-            this.btnroll.Location = new System.Drawing.Point(741, 3);
+            this.btnroll.Location = new System.Drawing.Point(702, 3);
             this.btnroll.Name = "btnroll";
-            this.btnroll.Size = new System.Drawing.Size(15, 15);
+            this.btnroll.Size = new System.Drawing.Size(37, 33);
+            this.btnroll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnroll.TabIndex = 10;
             this.btnroll.TabStop = false;
             this.btnroll.Click += new System.EventHandler(this.btnroll_Click);
@@ -192,12 +195,12 @@
             // lblErrorMessagge
             // 
             this.lblErrorMessagge.AutoSize = true;
-            this.lblErrorMessagge.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.5F);
+            this.lblErrorMessagge.Font = new System.Drawing.Font("Gilroy ExtraBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblErrorMessagge.ForeColor = System.Drawing.Color.DarkGray;
             this.lblErrorMessagge.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblErrorMessagge.Location = new System.Drawing.Point(272, 173);
             this.lblErrorMessagge.Name = "lblErrorMessagge";
-            this.lblErrorMessagge.Size = new System.Drawing.Size(64, 18);
+            this.lblErrorMessagge.Size = new System.Drawing.Size(68, 18);
             this.lblErrorMessagge.TabIndex = 11;
             this.lblErrorMessagge.Text = "Ошибка";
             this.lblErrorMessagge.Visible = false;
@@ -206,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(785, 330);
             this.Controls.Add(this.lblErrorMessagge);
             this.Controls.Add(this.btnroll);

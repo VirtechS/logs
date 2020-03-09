@@ -50,7 +50,7 @@
             // 
             // Panel1
             // 
-            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(21)))), ((int)(((byte)(41)))));
+            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(130)))), ((int)(((byte)(68)))));
             this.Panel1.Controls.Add(this.pictureBox3);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel1.Location = new System.Drawing.Point(0, 0);
@@ -91,7 +91,7 @@
             // 
             // btnsend
             // 
-            this.btnsend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btnsend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(130)))), ((int)(((byte)(68)))));
             this.btnsend.FlatAppearance.BorderSize = 0;
             this.btnsend.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnsend.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -108,32 +108,32 @@
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel1.Font = new System.Drawing.Font("Gilroy ExtraBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.Location = new System.Drawing.Point(366, 9);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(346, 33);
+            this.gunaLabel1.Size = new System.Drawing.Size(331, 33);
             this.gunaLabel1.TabIndex = 17;
             this.gunaLabel1.Text = "Восстановление пароля";
             // 
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel2.Font = new System.Drawing.Font("Gilroy Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel2.Location = new System.Drawing.Point(386, 62);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(296, 21);
+            this.gunaLabel2.Size = new System.Drawing.Size(289, 18);
             this.gunaLabel2.TabIndex = 20;
             this.gunaLabel2.Text = "Введите имя пользователя или почту:";
             // 
             // txtUserRequest
             // 
-            this.txtUserRequest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
+            this.txtUserRequest.BackColor = System.Drawing.Color.White;
             this.txtUserRequest.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUserRequest.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtUserRequest.Font = new System.Drawing.Font("Gilroy Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtUserRequest.ForeColor = System.Drawing.Color.DimGray;
             this.txtUserRequest.Location = new System.Drawing.Point(291, 115);
             this.txtUserRequest.Name = "txtUserRequest";
-            this.txtUserRequest.Size = new System.Drawing.Size(477, 20);
+            this.txtUserRequest.Size = new System.Drawing.Size(477, 19);
             this.txtUserRequest.TabIndex = 21;
             this.txtUserRequest.Text = "Логин или почта";
             this.txtUserRequest.Enter += new System.EventHandler(this.txtUserRequest_Enter);
@@ -163,10 +163,10 @@
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblResult.Font = new System.Drawing.Font("Gilroy Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblResult.Location = new System.Drawing.Point(3, 0);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(84, 21);
+            this.lblResult.Size = new System.Drawing.Size(80, 18);
             this.lblResult.TabIndex = 23;
             this.lblResult.Text = "Результат";
             // 
@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(71)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(797, 308);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.txtUserRequest);
