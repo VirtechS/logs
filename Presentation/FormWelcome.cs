@@ -42,7 +42,7 @@ namespace Presentation
 
         private void FormWelcome_Load(object sender, EventArgs e)
         {
-            lblusername.Text = UserLoginCache.FirstName + UserLoginCache.LastName;
+            lblusername.Text = UserLoginCache.FirstName + " " + UserLoginCache.LastName;
             this.Opacity = 0.0;
             circularProgressBar1.Value = 0;
             circularProgressBar1.Minimum = 0;

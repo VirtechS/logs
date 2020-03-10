@@ -41,6 +41,10 @@ namespace Domain
             {
 
             }
+            if (UserLoginCache.Position == Positions.Courier)
+            {
+
+            }
         }
     }
 }

@@ -129,8 +129,15 @@ namespace Presentation
 
         private void linkpass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var recoverPassword = new FormRecoveryPassword();
-            recoverPassword.ShowDialog();
+            
+            FormRecoveryPassword formrecov = new FormRecoveryPassword();
+            this.Hide();
+            formrecov.Show();
+        }
+
+        private void gunaGradientTileButton5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
